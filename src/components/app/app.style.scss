@@ -1,0 +1,27 @@
+html {
+  background: $coco;
+  height: 100vh;
+  width: 100%;
+  .app {
+    text-align: center;
+    background: $coco;
+  }
+  #footer{
+    background: $pink2;
+  }
+  &[data-theme=true] {
+    background: $eerie;
+    .app {
+     background: $eerie;
+     text-align: center;
+   }
+   #footer{
+     background: $grey;
+   }
+   #my-helper-text{
+     color: $grey;
+   }
+ }
+}
+
+

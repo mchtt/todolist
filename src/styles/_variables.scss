@@ -1,0 +1,44 @@
+//---------- Fonts ----------
+$font-primary: "Roboto", "Helvetica Neue", sans-serif;
+$font-secondary: "Permanent Marker", cursive;
+
+//---------- Colors ----------
+$black: #000;
+$coco: #fdfdfd;
+$eerie: #232323;
+$grey: #e0e0e0;
+$pink2: #f50057;
+$white: #f5f5f5;
+
+//---------- Background ----------
+$background: #e0e0e0;
+
+//---------- Shadows ----------
+$box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2),
+  0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+
+//---------- Borders ----------
+$borderNormal: 4px;
+
+//---------- Transitions ----------
+@mixin transitionHelper($duration) {
+  transition: bottom $duration ease-out;
+  -moz-transition: bottom $duration ease-out;
+  -webkit-transition: bottom $duration ease-out;
+  -o-transition: bottom $duration ease-out;
+  transition: right $duration ease-out;
+  -moz-transition: right $duration ease-out;
+  -webkit-transition: right $duration ease-out;
+  -o-transition: right $duration ease-out;
+}
+
+@mixin transitionCards($duration) {
+  transition: background-color $duration ease-out;
+  -moz-transition: background-color $duration ease-out;
+  -webkit-transition: background-color $duration ease-out;
+  -o-transition: background-color $duration ease-out;
+  transition: color $duration ease-out;
+  -moz-transition: color $duration ease-out;
+  -webkit-transition: color $duration ease-out;
+  -o-transition: color $duration ease-out;
+}

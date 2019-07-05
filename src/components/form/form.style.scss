@@ -1,0 +1,33 @@
+.input {
+  background: $background;
+  border-radius: $borderNormal;
+  box-shadow: $box-shadow;
+  font-family: $font-primary;
+  font-size: 1em;
+  height: 3em;
+  margin: 0 10px 20px 10px !important;
+  text-align: center !important;
+  text-transform: lowercase;
+  #my-input {
+    text-align: center;
+  }
+}
+
+.btn {
+  background-color: $pink2 !important;
+  color: $white !important;
+  height: 3em;
+}
+
+#btnReverse {
+  background: $background;
+  box-shadow: $box-shadow;
+  height: 3em;
+  &.hidden {
+    visibility: hidden;
+  }
+  &.colored{
+    background-color: rgba(167, 151, 255, 1);
+  }
+}
+

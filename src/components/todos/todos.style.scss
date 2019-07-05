@@ -1,0 +1,25 @@
+.tasksList {
+  overflow: auto;
+  .card {
+    margin: 10px auto 10px auto;
+    width: 80%;
+  }
+  .task {
+    @include transitionCards(0.9s);
+    border: none;
+    color: $black;
+    font-family: $font-primary;
+    font-size: 30px;
+    height: 2em;
+    margin: 0;
+    text-transform: capitalize;
+    width: 100%;
+
+    &:hover {
+      @include transitionCards(0.5s);
+      background: rgba(245, 0, 87, 1);
+      color: $white !important;
+      cursor: grab;
+    }
+  }
+}
